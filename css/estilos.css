@@ -1,0 +1,222 @@
+body{
+ background:url(../fotos/FONDO.jpg);
+   .contenedor{
+    width:100%;
+    display: flex;
+    justify-content: center;
+ align-items: center;
+ height:100vh;
+}
+
+
+.contenedor figure{
+          position: relative;
+          height: 250px;
+          width:350px;
+          over flow:hidden;
+          border-radius: 6px;
+          box-shadow: 0px 15px 25px
+       rgba(0,0,0,0.50);
+cursor:pointer;
+}
+
+.contenedor figure img{
+           width:100%;   
+           height: 100%;
+           transition: all 500ms ease-out;
+}
+
+
+.contenedor figure .capa{
+          position: absolute;
+          top:0;
+          width:100%;   
+          height: 100%;
+       background: rgba(11,,103,123,0.6);
+       transition: all 500ms ease-out; 
+       opactity:0;
+       visibility: hidden;
+       text-align: center;
+}
+
+.contenedor figure:hover >.capa{
+             opacity: 1;
+             visibility: visible;
+             
+ } 
+.contenedor figure:hover > img{
+            transform: scale(1.3);
+}
+.contenedor frigure:hover > .capa h3{
+            margin-top: 70px;
+            margin-buttom: 15px;
+}
+contenedor frigure:hover > .capa h3{
+            color: #fff;
+           font-weight: 400px;
+           margin-buttom: 120px;
+           transition: all 500ms ease-out;
+}
+
+
+.contenedor figure .capa p{
+            color:#fff;
+            font-size:15px
+            line-height: 1.5;
+            width:100%;
+            max-width:220px;
+            margin:auto;
+
+
+
+}
+
+
+
+
+
+
+.btn-neon{
+       position:relative;
+       display:inline-block;
+       padding:15px 30px;
+       color:#fff;
+       letter-spacing: 4px;
+       font-size:  24px;
+       text-decoration: none;
+       overflow:  hidden;
+      transition: 0.2s;
+}
+
+.btn-neon:hover{
+         background:#a945c7;
+         box-shadow: 0 0 10px  #a945c7, 0 0 40px
+         #a945c7, 0 0 80px #a945c7;
+         transition-delay: 1s;
+}
+
+   
+
+.btn-neon span{
+  position: absolute;
+  display:block;
+
+
+}
+
+#span1{ 
+     top:  0;
+     left: -100%;
+     width: 100%;
+     height:2px;
+     background: liner-
+    gradient( 90deg,tranparent,#a945c7);
+}
+
+
+.btn-neon:hover #span1{  
+         left:  100%;
+          transition:1s;
+          
+}
+#span3{ 
+     bottom:  0;
+     right: -100%;
+     width: 100%;
+     height:2px;
+     background: liner-
+    gradient( 270deg,tranparent,#a945c7);
+}
+
+
+.btn-neon:hover #span3{  
+        right:  100%;
+        transition: 1s;
+        transition-delay:  0.5s;
+          
+}
+
+#span2{ 
+     top:-100;
+     right: 0%;
+     width: 2px%;
+     height:100%;
+     background: liner-
+    gradient( 180deg,tranparent,#a945c7);
+}
+
+
+.btn-neon:hover #span2{  
+         top:100%;
+         transition: 1s;
+         transition-delay:0.25s;
+          
+}
+
+
+#span4{ 
+     buttom:-100;
+     left: 0%;
+     width: 2px%;
+     height:100%;
+     background: liner-
+    gradient( 360deg,tranparent,#a945c7);
+}
+
+
+.btn-neon:hover #span4{  
+         buttom:100%;
+         transition: 1s;
+         transition-delay: 0.75s;
+          
+}
+.container{
+      Width:100%;
+       Display:Flex;
+      Max-width:1100px;
+}
+.card{
+Width:100%;
+Margin:20px;
+Border-radius;6px;
+Overflow:Hidden;
+Background:#fff;
+Box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+Cursor:default;
+Transition:all 400ms ease;
+}
+.card:hover{
+Box-shadow: 5px 5 px 20px rgba(0,0,0,0.4);
+Transform: traslateY(-3%);
+}
+
+.card img{
+Width:100%;
+Height:210px;
+}
+.card . contenido{
+Padding:15px;
+Text-align:Center;
+}
+.card .contenido p{
+Linea-height: 1.5;
+Color:#6 a6a6a;
+}
+.card .contenido h3{
+  Font-Weight:400;
+Margin-buttom:none;
+Display:10px;
+Margin-top:10px;
+Color:#2fb4cc;
+Border:1px solid #2fb4cc;
+Border-radius:4px;
+Transition: all 400ms ease;
+}
+.card .contenido a:hover{
+Background:#2fb4cc;
+Color;#fff;
+
+}
+
+
+
